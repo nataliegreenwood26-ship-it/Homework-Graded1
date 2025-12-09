@@ -15,7 +15,7 @@ public class Conditionals {
 
     public Conditionals() {
         System.out.println(question);
-        int randomInt = (int)(Math.random() * 10) + 1; //0 to 10
+        int randomInt = (int)(Math.random() * 11); //0 to 10
 
     if (randomInt == 1){
         System.out.println(response1);
