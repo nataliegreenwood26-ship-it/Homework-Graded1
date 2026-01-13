@@ -16,7 +16,7 @@ public class Loops {
     }//constructor method
 
     public void countUp(){
-        for (int x = 1; x < 6; x++) {
+        for (int x = 1; x < 6; x = x+ 1) {
             System.out.println(x);
         }
 
@@ -30,7 +30,7 @@ public class Loops {
 
     public void countDown(){
         System.out.println(" ");
-        for (int x = 10; x > 0; x--){
+        for (int x = 10; x > 0; x = x - 1){
             System.out.print(x + ", ");
         }
         System.out.println(" ");
